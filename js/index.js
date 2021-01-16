@@ -2,15 +2,15 @@ function slideVienoiText() {
     document.getElementById("vivldvjlmjlj").innerHTML  = "En stock : 0";
 }
 
-$(document).ready(function() {
+/*$(document).ready(function() {
  $(window).scroll(function() {
- if($(this).scrollTop() > 200){
+ if($(this).scrollTop() > 50){
 $(".presentation-1").css({"opacity" : "1"})
 }
 else {
 $(".presentation-1").css({"opacity" : "0"})
 }
-if($(this).scrollTop() > 1200){
+if($(this).scrollTop() > 1000){
 $(".presentation-1").css({"opacity" : "0"})
 $(".presentation-2").css({"opacity" : "1"})
 } else {
@@ -18,4 +18,4 @@ $(".presentation-2").css({"opacity" : "0"})
 }
 
 })
-})
+})*/

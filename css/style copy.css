@@ -1,16 +1,3 @@
-@media (min-width: 576px) {
-    
-}
-@media (min-width: 768px) {
-    
-}
-@media (min-width: 992px) {
-   
-}
-@media (min-width: 1200px) {
-    
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -40,12 +27,12 @@ div.title-box {
     box-shadow: -13px 13px 2px 1px rgba(0, 0, 0, .2);
 }
 
-div.title-box h1 {
+header h1 {
     font-size: 40px;
     text-align: center;
 }
 
-div.title-box p {
+header p {
     font-size: 30px;
     text-align: center;
 }
@@ -168,6 +155,70 @@ div.title-box p {
     top: 1570px;
     left: 10px;
 }
+
+.button-animation::after {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 0;
+    }
+    .button-animation:hover:after {
+    width: 100%;
+    }
+    
+
+
+        .button-animation,
+        .button-animation::after {
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        }
+
+        .button-animation {
+        background: none;
+        border: 4px solid  rgb(255, 0, 0);
+        border-radius: 10px;
+        color:  rgb(255, 0, 0);
+        display: block;
+        font-size: 1.6em;
+        font-weight: bold;
+        margin: 10px auto;
+        padding: 1em 2.5em;
+        position: relative;
+        text-transform: uppercase;
+        top:50px;
+        }
+        .button-animation::before,
+        .button-animation::after {
+        background: rgb(255, 0, 0);
+        content: '';
+        position: absolute;
+        z-index: -1;
+        }
+        .button-animation:hover {
+        color: #fff;
+        }
+
+        .button-animation:hover span {
+            content:"Completed!";
+          }
+          
+          .button-animation:hover:before {
+            display:none
+          }
+
+        .button-animation::after {
+        height: 100%;
+        left: 0;
+        top: 0;
+        width: 0;
+        }
+        .button-animation:hover:after {
+        width: 100%;
+        }
+
 
 .menu-title-today {
     position: absolute;
