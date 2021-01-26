@@ -4,16 +4,17 @@
 
         <title>La Petite Boulangerie</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="./css/style.css">
+        
 
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="./css/style.css">
     
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -24,6 +25,7 @@
             <!-- Lien pour retourner en haut de la page-->
 
             <a id="#"></a>
+            
 
             <!-- Pour créer un lien avec le css -->
 
@@ -33,9 +35,11 @@
 
                 <div class="container">
 
-                    <div class="row">
+                    <div class="row row-content">
 
                         <div class="col-12">
+
+                            <!-- Titre en haut de la page -->
 
                             <h1>La Petite boulangerie du coin de Théo</h1>
 
@@ -52,6 +56,8 @@
         <!-- Slide -->
 
             <div class="slider col-lg col-sm-2">
+
+                
 
                 <div class="slides">
 
@@ -94,71 +100,68 @@
 
             </div>
 
+            <!-- Button top -->
 
-            <!-- Présentation 1 -->
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Go to top</button>
 
-         <div class="presentation-1 " id="presentation-1">
+            <!-- Video présentation -->
 
-            <img src="./images/pain au chocolat format .png" class="img-presentation-1 img-fluid">
+           <!-- <video controls autoplay name="media" class="video-pre">
+                <source src="./video/video presentation.mp4" type="video/mp4">
 
-            <h1 class="title-presentation-1" id="creations-1">De belles créations</h1>
-
-
-            <p>
-
-                 Une bonne tarte au chocolat ... et j'ai déjà plus d'idées pour compler le vide cette page, Si ! 
-                 J'ai une histoire, hier on a un gros problème dans l'immeuble où j'habite..
-                 Y'a le chauffe eau dans la voisine du dessus qui s'est casser ... et sachant qu'il faisait 200 L, 
-                 l'eau est passer à travers la porte de chez elle et a foncer dans les escaliers, tous les voisins
-                 ont commencés a faire passer l'eau jusqu'en bas avec des balais etc...
-
-            </p>
-
-           <!-- <a href="#" style="text-decoration:none"> <button class="button-animation">Nos créations</button> </a> -->
-        </div>
-
-        <!-- Présentation 2 --> 
-
-            <div class="presentation-2">
-                
-
-            <img src="./images/gateau miam.jpg" class="img-presentation-2">
-
-            <h1 class="title-presentation-2">Un mariage ? Nous Sommes là</h1>
-
-            <div class="presentation-2-p">
-
-               <p>
-                Avec notre équipe de choque, nous <br>
-                pouvons répondre à vos exigences dans les <br>
-                plus grand moments de votre vie !
-
-                <br><br>
-
-                Nous sommes également en partenariat <br>
-                avec des chefs patissiers étoilés <br>
-                pour vous proposer la meilleure des <br>
-                qualités et surtout, vous la mettre <br>
-                bien à l'envers avec le prix !
-               </p>
-
-               <button href="#" class="button-animation">Nos Gâteaux</button> 
-
-            </div>
-        </div>
+            </video>-->
 
         </header>  
+        
+        <div class="menu-today">
 
-        <h1 class="menu-title-today">Menu du jour</h1>
-
+            <h1 class="menu-title-today">Menu du jour</h1>
+            
+            <section class="h2-menu-today">
+                
+            
+            <a href="#">
+                <h2 class="menu-entre-today">Entrée du jour</h2>
+                <img class="img-fluid images-menu-today-1" src="./images/i52681-entrees-raffinees.jpg">
+                
+            </a>
+                
+            <a>
+                <h2 class="menu-plat-today">Plat du jour</h2>
+                <img class="img-fluid images-menu-today-2" src="./images/38946_w350h250c1cx2690cy1793.jpg">
+            </a>
+            
+            
+            
+            
+            <h2 class="menu-dessert-today">Dessert du jour</h2>
+                       
+            </section>
+            
 
     
-
+            
+                
+                
+                <img class="img-fluid images-menu-today-3" src="./images/chocolate-tofu-pie-web.jpg">
+                
+        </div>
+        
+        <div class="best-plants">
+            <a href="#" class="plant-box no-grid plant1">
+                <div class="plant-bio">
+                    <h1 class="plant-name">Plante</h1>
+                    <h3 class="plant-price">29,99€</h3>
+                </div>
+            </a>
+            
+            
+        
+        
 
 
         <script src="./js/index.js"></script>
     </body>
-
 
 
 </html>

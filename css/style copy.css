@@ -225,3 +225,21 @@ header p {
     top: 2500px;
     left: 750px;
 }
+
+
+
+.video-pre {
+    position: absolute;
+    top: 1000px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+    transition-duration: 2ms;
+    box-shadow: -5px 5px 2px 1px rgba(0, 0, 0, .2);
+    border-style: solid;
+}
+
+
