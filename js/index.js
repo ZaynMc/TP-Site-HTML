@@ -4,11 +4,11 @@ function slideVienoiText() {
 
 $(document).ready(function() {
  $(window).scroll(function() {
- if($(this).scrollTop() > 50){
-//$(".presentation-1").css({"opacity" : "1"})
+ if($(this).scrollTop() > 400){
+$(".presentation-1").css({"opacity" : "1"})
      $(".menu-today").css({"opacity:" : "1"})
 } else {
-//$(".presentation-1").css({"opacity" : "0"})
+$(".presentation-1").css({"opacity" : "0"})
     $(".menu-today").css({"opacity:": "0"})
 }
 })
@@ -38,3 +38,10 @@ function topFunction() {
 function selectionitem1() {
     alert("Bonjour", "Bonjour");
 }
+
+     function Coucou() {
+      var fname = document.getElementById("fname").value;
+      alert(fname);
+         
+     document.getElementById('p1').innerText = 'Anything you want'
+    }

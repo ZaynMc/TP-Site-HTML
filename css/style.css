@@ -213,6 +213,70 @@ div.title-box p {
     top: 570px;
 }
 
+.entree-today {
+    position: absolute;
+    top: 1005px;
+    left: 490px;
+    color: red;
+}
+
+.plat-today{
+    
+    position: absolute;
+    top: 1005px;
+    left: 900px;
+    color: black;
+}
+
+.dessert-today {
+    
+    position: absolute;
+    top: 1005px;
+    left: 1270px;
+    color: red;
+}
+
+.menu-au-choix {
+    position: absolute;
+    top: 1300px
+    
+}
+
+
+
+
+.presentation-1 {
+    transition: 1s;  
+    opacity: 1;
+}
+
+.presentation-1 img{
+    width: calc(280px * 4);
+    transition: 1.2s;
+    position: absolute;
+    top: 800px;
+    min-width: 10px;
+}
+
+.presentation-1 h1 {
+    position: absolute;
+    top: 800px;
+    left: 1320px;
+}
+
+.presentation-1 p {
+    opacity: 0.6;
+    position: absolute;
+    top: 870px;
+    left: 1140px;
+    font-size: 40px
+}
+
+.presentation-1 h3 {
+    position: absolute;
+    left: 300px;
+}
+
 
 
 
@@ -280,10 +344,6 @@ div.title-box p {
     height: 850px;
     min-height: 100px;
     
-    
-
-
-
 }
     
     .best-plants {
@@ -309,8 +369,59 @@ div.title-box p {
     flex-wrap: wrap;
 }
     
-    .plant1 {
-    background: url("/images/1200px-Morning-breakfast-croissant_(24244330501).jpg");
+    .entree-today {
+    position: absolute;
+    top: 1350px;
+    left: 600px;
+    color: red;
+}
+
+.plat-today{
+    
+    position: absolute;
+    top: 2300px;
+    left: 600px;
+    color: black;
+}
+
+.dessert-today {
+    
+    position: absolute;
+    top: 3300px;
+    left: 600px;
+    color: red;
 }
     
+    .presentation-1 {
+    transition: 1s;  
+    opacity: 1;
+}
 
+.presentation-1 img{
+    width: calc(280px * 4);
+    transition: 1.2s;
+    position: absolute;
+    top: 3300px;
+    left: 100px;
+    min-width: 5px;
+}
+
+.presentation-1 h1 {
+    position: absolute;
+    top: 3240px;
+    left: 470px;
+}
+
+.presentation-1 p {
+    opacity: 0.6;
+    position: absolute;
+    top: 4070px;
+    left: 50px;
+    font-size: 40px
+}
+
+.presentation-1 h3 {
+    position: absolute;
+    left: 300px;
+}
+}
